@@ -11,7 +11,7 @@
   <header class="cite-header">
     <section class="header-logo">
       <a class="logo-link" href="#">
-        <img src="/img/logo.png" alt="Логотип Кваст" width="140" height="76">
+        <img src="/Intermediate-test/img/logo.png" alt="Логотип Кваст" width="140" height="76">
       </a>
     </section>
     <section class="navigation-header">
@@ -108,15 +108,15 @@
           <p>Квас на Руси появился в X-XI веке. Само слово «квас» тоже имеет древнерусское происхождение. Помимо России
             квас готовят в Белоруссии, Сербии, Македонии, Словакии и многих других странах, но называется он везде
             одинаково — квас.</p>
-          <i>Источник: ru.wikipedia.org</i>
-          <img src="/Intermediate-test/img/wiki-1.png" alt="Происхождение кваса">
+          <i>Источник: <a href="ru.wikipedia.org">ru.wikipedia.org</a> </i>
+          <img src=" /Intermediate-test/img/wiki-1.png" alt="Происхождение кваса">
         </dd>
       </dl>
       <dt class="theory-title">Классификация кваса</dt>
       <dd class="theory-description">
         <p>По российскому ГОСТу для промышленного изготовления — это напиток с объёмной долей этилового спирта не более
           1,2%, изготовленный в результате незавершённого спиртового и молочнокислого брожения сусла.</p>
-        <i>Источник: ru.wikipedia.org</i>
+        <i>Источник: <a href="ru.wikipedia.org">ru.wikipedia.org</a></i>
         <img src="/Intermediate-test/img/wiki-2.png" alt="Классификация кваса">
       </dd>
     </section>
@@ -133,8 +133,6 @@
               Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!</p>
             <cite>Газета столичный Стольник</cite>
             <a class="btn-link">Читать далее</a>
-
-
           </blockquote>
         </li>
       </ul>
@@ -186,13 +184,38 @@
         Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас.
         При заказе от 10 баррелей — скидка 10%.
       </p>
-      <form action="" method="get" class="ordering-field"></form>
+      <form action="" method="post" class="ordering-field">
+        <label for="fullname">Представьтесь:</label>
+        <input type="text" name="fullname" id="fullname">
+        <label for="telephone-number">Номер телефона:</label>
+        <input type="tel" name="telephone-number" id="telephone-number">
+        <label for="additional-telephone-number">Доп. номер:</label>
+        <input type="tel" name="additional-telephone-number" id="additional-telephone-number">
+        <label for="e-mail">Email:</label>
+        <input type="email" name="e-mail" id="e-mail">
+        <label for="order-volume">Объём заказа:</label>
+        <select name="order-volume" id="order-volume" required="required">
+          <option value="">От 5 до 10 баррелей в неделю</option>
+          <option value="5">5 баррелей в неделю</option>
+          <option value="6">6 баррелей в неделю</option>
+          <option value="7">7 баррелей в неделю</option>
+          <option value="8">8 баррелей в неделю</option>
+          <option value="9">9 баррелей в неделю</option>
+        </select>
+        <label for="comment">Доп. комментарий:</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        <label for="subscription">
+          <input type="checkbox" name="subscription" id="subscription" checked>
+          Я согласен получать квасную рассылку
+        </label>
+        <input type="submit" value="Отправить заказ" class="btn">
+      </form>
     </section>
   </main>
   <footer class="footer-cite">
     <section class="footer-logo">
       <a class="logo-link" href="#">
-        <img src="/img/logo.png" alt="Логотип Кваст" width="140" height="76">
+        <img src="/Intermediate-test/img/logo.png" alt="Логотип Кваст" width="140" height="76">
       </a>
     </section>
     <section class="navigation-footer">
@@ -213,7 +236,7 @@
       </ul>
     </section>
     <section class="author">
-      <img src="" alt="Логотип HTML-Academy" sizes="">
+      <img src="/Intermediate-test/img/htmlacademy.png" alt="Логотип HTML-Academy" sizes="">
       <p class="author-description">
         Разработчик: HTML Academy
       </p>
