@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: Arial, sans-serif;
+	background-color: #fff;
+	color: #404040;
+}
+
+/* Хедер */
+.page-header {
+	background: url("/img/wheat-back.jpg") no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+/* Навигация */
+.navigation-list {
+	list-style-type: none;
+}
+
+.navigation-item {
+	text-transform: uppercase;
+}
+
+.navigation-link {
+	text-decoration: none;
+	color: #ffffff
+}
+
+.navigation-link:hover {
+	color: #ffcb78;
+}
+
+.navigation-link:active {
+	color: rgba(255, 203, 102, 0.3);
+}
+
+/* Промо */
+.promo-title {
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 70px;
+	color: #ffffff;
+	text-align: center;
+}
+
+/* Мэйн */
+/* Новинки */
+.new-products-title {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 61px;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+}
+
+.card-title {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 61px;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+}
+
+/* Преимущества */
+.advantages {
+	background-color: #ffcb78;
+}
+
+.advantages-list {
+	list-style-type: none;
+}
+
+.advantage-title {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color: #000000;
+}
+
+/* Немного истории */
+
+.theory-product-title {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 61px;
+	color: #000000;
+}
+
+.reference-title {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color: #000000;
+}
+
+.reference-sourse {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	font-style: italic;
+}
+
+.reference-sourse-link {
+	color: #9d7450;
+}
+
+.reference-sourse-link:hover {
+	color: #6a3900;
+}
+
+.reference-sourse-link:active {
+	color: #cab7a2;
+}
+
+.theory-description-image {
+	border-radius: 5px;
+}
+
+/* Пресса о нас */
+
+.reviews {
+	border-color: #ede5d8;
+}
+
+.reviews-title {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 61px;
+	color: #000000;
+}
+
+.review-author {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color: #000000;
+}
