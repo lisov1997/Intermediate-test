@@ -13,10 +13,9 @@ body {
 
 .big-container {
 	width: 1015px;
-	margin: 0 auto;
 }
 
-.small-container {
+.container {
 	width: 800px;
 	margin: 0 auto;
 }
@@ -39,7 +38,7 @@ body {
 }
 
 .header-top {
-	margin: 0 auto 120px auto;
+	margin-bottom: 120px;
 }
 
 .logo-link {
@@ -49,10 +48,10 @@ body {
 
 .logo-link {
 	display: inline-block;
-	margin: 0;
-	padding: 0;
 	width: 140px;
 	height: 76px;
+	margin: 0;
+	padding: 0;
 }
 
 /* Навигация */
@@ -70,21 +69,21 @@ body {
 }
 
 .navigation-item {
-	text-transform: uppercase;
 	float: left;
 	margin: 0;
 	padding: 0;
+	text-transform: uppercase;
 }
 
 .navigation-link {
-	text-decoration: none;
 	display: inline-block;
-	color: #ffffff;
 	line-height: 0;
 	font-weight: bold;
 	padding-top: 29px;
 	padding-bottom: 28px;
 	padding-right: 55px;
+	text-decoration: none;
+	color: #ffffff;
 	border-top: 1px solid rgb(255, 255, 255, 0.2);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -119,15 +118,18 @@ body {
 	margin-bottom: 130px;
 }
 
-.new-products-title {
+.title {
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 61px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.new-products-title {
 	margin: 0;
 	margin-top: 80px;
 	padding: 0;
-	color: #000000;
-	text-transform: uppercase;
 }
 
 .new-products-cards {
@@ -135,18 +137,18 @@ body {
 }
 
 .card-left {
+	position: relative;
 	float: left;
 	width: 398px;
 	border-left: 1px solid #e5e5e5;
 	border-right: 1px solid #e5e5e5;
-	position: relative;
 }
 
 .card-right {
+	position: relative;
 	float: left;
 	width: 398px;
 	border-right: 1px solid #e5e5e5;
-	position: relative;
 }
 
 .card-wrapper {
@@ -155,12 +157,8 @@ body {
 }
 
 .card-title {
-	font-weight: bold;
-	font-size: 40px;
-	line-height: 61px;
 	margin: 0;
-	color: #000000;
-	text-transform: uppercase;
+	padding: 0;
 }
 
 .card-image {
@@ -169,25 +167,24 @@ body {
 }
 
 .card-data {
-	border: 1px solid #e5e5e5;
-	border-collapse: collapse;
 	position: absolute;
-	right: 25px;
-	top: 85px;
 	width: 150px;
-
+	top: 85px;
+	right: 25px;
 	text-transform: uppercase;
 	line-height: 41px;
 	color: #000000;
+	border: 1px solid #e5e5e5;
+	border-collapse: collapse;
 }
 
 .cell {
-	border: 1px solid #e5e5e5;
 	font-weight: bold;
 	padding: 0;
 	padding-left: 9px;
 	text-align: left;
 	vertical-align: middle;
+	border: 1px solid #e5e5e5;
 }
 
 .card-data-name {
@@ -199,9 +196,9 @@ body {
 }
 
 .product-composition {
+	width: 150px;
 	font-size: 14px;
 	line-height: 24px;
-	width: 150px;
 	margin: 0;
 	position: absolute;
 	right: 25px;
@@ -265,10 +262,10 @@ body {
 .card-cost {
 	display: inline-block;
 	margin-top: 65px;
+	padding-top: 14px;
 	margin-left: 10px;
 	line-height: 20px;
 	color: #000000;
-	padding-top: 14px;
 }
 
 .btn-buy,
@@ -279,9 +276,9 @@ body {
 
 /* Преимущества */
 .advantages {
-	background-color: #ffcb78;
 	padding-top: 80px;
 	padding-bottom: 90px;
+	background-color: #ffcb78;
 }
 
 .advantages-list {
@@ -296,18 +293,18 @@ body {
 }
 
 .advantage-selfmade {
-	width: 303px;
+	width: 305px;
 }
 
 .advantage-expensive {
 	padding-left: 95px;
-	width: 212px;
+	width: 213px;
+	border-left: 1px solid #e5b66c;
 }
 
 .advantage-homeland {
 	width: 305px;
 	border-left: 1px solid #e5b66c;
-	border-right: 1px solid #e5b66c;
 	padding-left: 95px;
 }
 
@@ -329,9 +326,9 @@ body {
 }
 
 .advantage-description {
-	margin: 20px 0 0 0;
 	display: inline-block;
 	width: 210px;
+	margin: 20px 0 0 0;
 }
 
 .advantage-selfmade::before {
@@ -353,14 +350,9 @@ body {
 /* Немного истории */
 
 .theory-product-title {
-	font-weight: bold;
-	font-size: 40px;
-	line-height: 61px;
-	color: #000000;
 	margin: 0;
 	margin-top: 80px;
 	margin-bottom: 60px;
-	text-transform: uppercase;
 }
 
 .theory-product-list {
@@ -424,10 +416,10 @@ body {
 /* Пресса о нас */
 
 .reviews {
+	position: relative;
 	background-color: #ede5d8;
 	padding-top: 60px;
 	padding-bottom: 90px;
-	position: relative;
 }
 
 .reviews::before {
@@ -453,11 +445,6 @@ body {
 	margin: 0;
 	margin-top: 20px;
 	margin-bottom: 74px;
-	font-weight: bold;
-	font-size: 40px;
-	line-height: 61px;
-	color: #000000;
-	text-transform: uppercase;
 }
 
 .review-description {
@@ -468,26 +455,23 @@ body {
 }
 
 .review-author {
+	float: right;
 	margin: 0;
 	margin-top: 10px;
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 30px;
 	color: #000000;
-	/* position: absolute;
-	top: 100%;
-	right: 0%; */
-	float: right;
 	text-transform: uppercase;
 	font-style: normal;
 }
 
 .btn-review-more {
+	float: left;
+	padding: 13px 20px;
 	color: rgba(0, 0, 0, 0.3);
 	border-color: rgba(0, 0, 0, 0.3);
 	background-color: transparent;
-	float: left;
-	padding: 13px 23px;
 }
 
 .btn-review-more:hover {
@@ -504,17 +488,10 @@ body {
 
 /* Ассортимент */
 
-.catalog {}
-
 .catalog-title {
 	margin: 0;
 	margin-top: 90px;
 	margin-bottom: 75px;
-	font-weight: bold;
-	font-size: 40px;
-	line-height: 61px;
-	color: #000000;
-	text-transform: uppercase;
 }
 
 .catalog-data {
@@ -554,7 +531,6 @@ body {
 }
 
 .catalog-data-names {
-
 	width: 400px;
 }
 
@@ -600,13 +576,8 @@ body {
 }
 
 .ordering-title {
-	font-weight: bold;
-	font-size: 40px;
-	line-height: 61px;
-	color: #000000;
 	margin: 0;
 	margin-bottom: 74px;
-	text-transform: uppercase;
 }
 
 .ordering-description {
@@ -703,10 +674,6 @@ body {
 	margin-top: 15px;
 }
 
-/* . .comment-textarea {
-	display: block;
-
-} */
 
 /* Футер */
 
@@ -783,8 +750,6 @@ body {
 	display: inline-block;
 	border: 1px solid #322d24;
 	padding: 19px 33px;
-	/* background: url("img/icon-sprite.png") no-repeat; */
-
 }
 
 .social-inst {
