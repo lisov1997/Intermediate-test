@@ -8,36 +8,39 @@
 </head>
 
 <body>
+
   <!-- Хэдер -->
+
   <div class="page-header">
     <div class="container">
       <div class="header-top clearfix">
-        <a class="logo-link" href="#">
-          <img class="logo-image" src="img/logo.png" alt="Логотип Кваст" width="140" height="76">
-        </a>
-        <div class=" navigation-header clearfix">
-          <ul class="navigation-list clearfix">
-            <li class="navigation-item"><a class="navigation-link" href="#">История</a></li>
-            <li class="navigation-item"><a class="navigation-link" href="#">Производство</a></li>
-            <li class="navigation-item"><a class="navigation-link" href="#">Ассортимент</a></li>
-            <li class="navigation-item"><a class="navigation-link" href="#">Где купить</a></li>
-          </ul>
+        <div class="logo-header">
+          <a class="logo-link" href="index.html">
+            <img class="logo-image" src="img/logo.png" alt="Логотип Кваст" width="140" height="76">
+          </a>
         </div>
+        <ul class="navigation-list header-navigation">
+          <li class="navigation-item"><a class="navigation-link" href="#">История</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#">Производство</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#">Ассортимент</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#">Где купить</a></li>
+        </ul>
       </div>
-      <p class="slogan-title">Крафтовый квас
+      <div class="slogan-title">Крафтовый квас
         <br>всему голова!
-      </p>
+      </div>
     </div>
   </div>
-  <!-- Мэйн -->
+
   <!-- Новинки -->
+
   <div class="new-products">
     <div class="container">
-      <h2 class="new-products-title title">Новинки</h2>
+      <h2 class="block-title">Новинки</h2>
       <div class="new-products-cards clearfix">
-        <div class="card-left">
-          <div class="card-wrapper">
-            <h3 class="card-title title">Вахтёр</h3>
+        <div class="product-card clearfix">
+          <h3 class="card-title block-title">Вахтёр</h3>
+          <div class="product-card-info">
             <table class="card-data">
               <tr>
                 <td class="card-data-name cell">Алк.</td>
@@ -49,19 +52,21 @@
               </tr>
             </table>
             <p class="product-composition">Ржаной хлеб, Вода, Солод, Соль</p>
-            <img class="card-image" src="img/bottle-left.jpg" alt="Вахтёр">
-            <p class="card-description">Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил
-              для
-              вечерних приключений!
-            </p>
-            <a href="#" class="btn btn-more">Подробнее</a>
-            <a href="#" class="btn btn-buy">Купить</a>
+          </div>
+          <img class="card-image" src="img/bottle-left.jpg" alt="Вахтёр">
+          <p class="card-description">Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил
+            для
+            вечерних приключений!
+          </p>
+          <div class="product-card-controls">
+            <a class="btn btn-transparent" href="#">Подробнее</a>
+            <a class="btn btn-solid" href="#">Купить</a>
             <b class="card-cost">150 Р.</b>
           </div>
         </div>
-        <div class="card-right">
-          <div class="card-wrapper">
-            <h3 class="card-title title">Романтик</h3>
+        <div class="product-card">
+          <h3 class="card-title block-title">Романтик</h3>
+          <div class="product-card-info">
             <table class="card-data">
               <tr>
                 <td class="card-data-name cell">Алк.</td>
@@ -73,25 +78,29 @@
               </tr>
             </table>
             <p class="product-composition">Ячменный хлеб, Вода, Солод, Апельсин</p>
-            <img src="img/bottle-right.jpg" class="card-image" alt="Романтик">
-            <p class="card-description">Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение
-              всего
-              дня.
-            </p>
-            <a href="#" class="btn btn-more">Подробнее</a>
-            <a href="#" class="btn btn-buy">Купить</a>
+          </div>
+          <img class="card-image" src="img/bottle-right.jpg" alt="Романтик">
+          <p class="card-description">Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение
+            всего
+            дня.
+          </p>
+          <div class="product-card-controls">
+            <a class="btn btn-transparent" href="#">Подробнее</a>
+            <a class="btn btn-solid" href="#">Купить</a>
             <b class="card-cost">90 Р.</b>
           </div>
         </div>
       </div>
     </div>
   </div>
+
   <!-- 
   Преимущества -->
+
   <div class="advantages">
-    <div class="container">
+    <div class="container big-container">
       <ul class=" advantages-list clearfix">
-        <li class="advantages-list-item advantage-selfmade">
+        <li class="advantages-list-item advantage-handmade">
           <h2 class="advantage-title">
             Варим сами
           </h2>
@@ -114,15 +123,17 @@
       </ul>
     </div>
   </div>
+
   <!-- Немного истории -->
+
   <div class="theory-product">
-    <div class="container">
-      <h2 class="theory-product-title title">Немного истории</h2>
-      <dl class="theory-product-list">
-        <dt class="reference-title">Происхождение кваса <i class="reference-sourse">Источник: <a
+    <div class="container clearfix">
+      <h2 class="theory-product-title block-title">Немного истории</h2>
+      <dl class="theory-product-list clearfix">
+        <dt class="reference-title clearfix">Происхождение кваса <i class="reference-sourse">Источник: <a
               class="reference-sourse-link" href="ru.wikipedia.org">ru.wikipedia.org</a></i>
         </dt>
-        <dd class="reference-description">
+        <dd class="reference-description clearfix">
           <img class="reference-description-image" src="img/wiki-1.png" alt="Происхождение кваса">
           <p class="reference-description-text">Квас на Руси появился в X-XI веке. Само слово «квас» тоже имеет
             древнерусское происхождение. Помимо
@@ -131,48 +142,49 @@
             одинаково — квас.
           </p>
         </dd>
-        <dt class="reference-title">Классификация кваса <i class="reference-sourse">Источник: <a
+        <dt class="reference-title clearfix">Классификация кваса <i class="reference-sourse">Источник: <a
               class="reference-sourse-link" href="ru.wikipedia.org">ru.wikipedia.org</a></i>
         </dt>
-        <dd class="reference-description">
+        <dd class="reference-description clearfix">
           <img class="reference-description-image" src="img/wiki-2.png" alt="Классификация кваса">
-          <p class="reference-description-text">По российскому этиловогоГОСТу для промышленного изготовления — это
-            напиток
-            с
+          <p class="reference-description-text">По российскому ГОСТу для промышленного изготовления — это напиток с
             объёмной долей этилового спирта не
-            более
-            1,2%, изготовленный в результате незавершённого спиртового и молочнокислого брожения сусла.</p>
+            более 1,2%, изготовленный в результате незавершённого спиртового и молочнокислого брожения сусла.</p>
         </dd>
       </dl>
     </div>
   </div>
+
   <!-- Пресса о нас -->
+
   <div class="reviews">
     <div class="container">
-      <h2 class="reviews-title title">
+      <h2 class="block-title">
         Пресса о нас
       </h2>
-      <blockquote class="review clearfix">
+      <blockquote class="review">
         <p class="review-description">
           Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не
           ослышались!
           Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!</p>
         <cite class="review-author">Газета столичный Стольник</cite>
-        <a class="btn btn-review-more" href="#">Читать далее</a>
+        <a class="btn btn-transparent-light" href="#">Читать далее</a>
       </blockquote>
     </div>
   </div>
+
   <!-- Ассортимент -->
+
   <div class="catalog">
     <div class="container">
-      <h2 class="catalog-title title">Ассортимент</h2>
+      <h2 class="block-title">Ассортимент</h2>
       <table class="catalog-data">
         <tr class="catalog-title-row">
-          <th class="catalog-table-title">Название</th>
-          <th class="catalog-table-title">Алк.</th>
-          <th class="catalog-table-title">Ккал</th>
-          <th class="catalog-table-title">Объём</th>
-          <th class="catalog-table-title cost">Стоимость</th>
+          <th class="catalog-data-names">Название</th>
+          <th class="catalog-data-alc">Алк.</th>
+          <th class="catalog-data-calories">Ккал</th>
+          <th class="catalog-data-volume">Объём</th>
+          <th class="catalog-data-cost">Стоимость</th>
         </tr>
         <tr class="catalog-data-row">
           <td class="catalog-data-names">Классика</td>
@@ -205,10 +217,12 @@
       </table>
     </div>
   </div>
+
   <!-- Заказать -->
+
   <div class="ordering">
     <div class="container">
-      <h2 class="ordering-title title">
+      <h2 class="block-title">
         Заказать
       </h2>
       <p class="ordering-description">
@@ -216,29 +230,27 @@
         сейчас.
         При заказе от 10 баррелей — скидка 10%.
       </p>
-      <form action="index.html" method="post" class="ordering-field">
+      <form class="ordering-form" action="index.html" method="post">
         <div class="feedback-form-group fullname-form">
           <label for="fullname" class="form-label">Представьтесь:</label>
-          <input type="text" name="fullname" id="fullname" class="fullname-input">
+          <input class="fullname-input" type="text" name="fullname" id="fullname">
         </div>
-        <div class="telephone-wrapper clearfix">
-          <div class="feedback-form-group telephone-number">
-            <label for="telephone-number" class="form-label">Номер телефона:</label>
-            <input type="tel" name="telephone-number" id="telephone-number" class="telephone-number-input">
-          </div>
-          <div class="feedback-form-group additional-telephone">
-            <label for="additional-telephone-number" class="form-label">Доп. номер:</label>
-            <input type="tel" name="additional-telephone-number" id="additional-telephone-number"
-              class="additional-telephone-number-input">
-          </div>
+        <div class="feedback-form-group telephone-number">
+          <label class="form-label" for="telephone-number">Номер телефона:</label>
+          <input class="telephone-number-input" type="tel" name="telephone-number" id="telephone-number">
+        </div>
+        <div class="feedback-form-group additional-telephone">
+          <label class="form-label" for="additional-telephone-number">Доп. номер:</label>
+          <input class="additional-telephone-number-input" type="tel" name="additional-telephone-number"
+            id="additional-telephone-number">
         </div>
         <div class="feedback-form-group">
-          <label for="e-mail" class="form-label">Email:</label>
-          <input type="email" name="e-mail" id="e-mail" class="email-input">
+          <label class="form-label" for="e-mail">Email:</label>
+          <input class="email-input" type="email" name="e-mail" id="e-mail">
         </div>
         <div class="feedback-form-group">
-          <label for="order-volume" class="form-label">Объём заказа:</label><br>
-          <select name="order-volume" id="order-volume" required="required" class="order-volume-select">
+          <label class="form-label" for="order-volume">Объём заказа:</label><br>
+          <select class="order-volume-select" name="order-volume" id="order-volume" required="required">
             <option value="">От 5 до 10 баррелей в неделю</option>
             <option value="5">5 баррелей в неделю</option>
             <option value="6">6 баррелей в неделю</option>
@@ -248,52 +260,53 @@
           </select>
         </div>
         <div class="feedback-form-group">
-          <label for="comment" class="form-label">Доп. комментарий:</label>
-          <textarea name="comment" id="comment" class="comment-textarea"></textarea>
+          <label class="form-label" for="comment">Доп. комментарий:</label>
+          <textarea class="comment-textarea" name="comment" id="comment"></textarea>
         </div>
-        <div class="feedback-form-group clearfix">
-          <input type="checkbox" name="subscription" id="subscription" checked class="checkbox-subscription-input">
-          <label for="subscription" class="form-label-subscription">
+        <div class="checkbox-area">
+          <label class="form-label-subscription" for="subscription">
+            <input class="checkbox-subscription-input" type="checkbox" name="subscription" id="subscription" checked>
             Я согласен получать квасную рассылку
           </label>
         </div>
-        <div class="feedback-form-group">
-          <input type="submit" value="Отправить заказ" class="btn btn-submit">
-        </div>
+        <input class="btn btn-solid" type="submit" value="Отправить заказ">
       </form>
     </div>
   </div>
+
   <!-- Футер -->
+
   <div class="page-footer">
-    <div class="big-container container">
-      <div class="top-footer clearfix">
-        <div class="footer-logo">
-          <a class="logo-link" href="#">
+    <div class="container big-container">
+      <div class="footer-top clearfix">
+        <div class="logo-footer">
+          <a class="logo-link" href="index.html">
             <img class="logo-image" src="img/logo.png" alt="Логотип Кваст" width="140" height="76">
           </a>
         </div>
-        <ul class="navigation-footer-list clearfix">
-          <li class="navigation-footer-item"><a href="#" class="navigation-footer-link">История</a></li>
-          <li class="navigation-footer-item"><a href="#" class="navigation-footer-link">Производство</a></li>
-          <li class="navigation-footer-item"> <a href="#" class="navigation-footer-link">Ассортимент</a></li>
-          <li class="navigation-footer-item"><a href="#" class="navigation-footer-link">Где купить</a></li>
+        <ul class="footer-navigation navigation-list">
+          <li class="navigation-item"><a class="navigation-link" href="#">История</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#">Производство</a></li>
+          <li class="navigation-item"> <a class="navigation-link" href="#">Ассортимент</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#">Где купить</a></li>
         </ul>
       </div>
-      <div class="bottom-footer clearfix">
+      <div class="footer-bottom clearfix">
         <div class="social-network clearfix">
-          <a href="https://instagram.com/htmlacademy" class="social-btn social-inst">Инстаграм</a>
-          <a href="https://www.facebook.com/htmlacademy" class="social-btn social-fb">Фейсбук</a>
-          <a href="https://vk.com/htmlacademy" class="social-btn social-vk">Вконтакте</a>
+          <a class="social-btn social-inst" href="https://instagram.com/htmlacademy">Инстаграм</a>
+          <a class="social-btn social-fb" href="https://www.facebook.com/htmlacademy">Фейсбук</a>
+          <a class="social-btn social-vk" href="https://vk.com/htmlacademy">Вконтакте</a>
         </div>
-        <div class="copyright">
-          <p class="copyright-description">При перепечатке материалов ссылка на сайт обязательна!
+        <div class="footer-annotation">
+          <p class="footer-annotation-description">При перепечатке материалов ссылка на сайт обязательна!
           </p>
         </div>
-        <div class="author clearfix">
-          <a href="#" class="author-btn"><img class="author-image" src="img/htmlacademy.png" alt="Логотип HTML-Academy"
-              width="27" height="34"></a><b class="author-description">Разработчик:</b>
-          <a href="#" class="author-link">HTML
-            Academy</a>
+        <div class="footer-copyright clearfix">
+          <a class="btn-logo" href="https://htmlacademy.ru"><img class="btn-logo-image" src="img/htmlacademy.png"
+              alt="Логотип HTML-Academy" width="27" height="34"></a><span class="copyright-text"><b
+              class="copyright-description">Разработчик:</b>
+            <a class="copyright-link" href="https://htmlacademy.ru">HTML
+              Academy</a></span>
         </div>
       </div>
     </div>
