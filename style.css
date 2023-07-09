@@ -2,14 +2,12 @@ body {
 	min-width: 1040px;
 	margin: 0;
 	padding: 0;
-
-	font-weight: 400;
+	font-family: Arial, sans-serif;
+	font-style: normal;
 	font-size: 16px;
 	line-height: 30px;
-	font-family: Arial, sans-serif;
+	font-weight: 400;
 	color: #404040;
-	font-style: normal;
-
 	background-color: #fff;
 }
 
@@ -24,7 +22,6 @@ body {
 
 .clearfix::after {
 	content: "";
-
 	display: table;
 	clear: both;
 }
@@ -32,21 +29,19 @@ body {
 .block-title {
 	margin: 0;
 	margin-bottom: 75px;
-
-	font-weight: bold;
 	font-size: 40px;
 	line-height: 60px;
-	color: #000000;
+	font-weight: bold;
 	text-transform: uppercase;
+	color: #000000;
 }
 
 .btn {
 	display: inline-block;
 	padding: 8px 20px;
-
 	font: inherit;
-	font-weight: bold;
 	line-height: inherit;
+	font-weight: bold;
 	vertical-align: middle;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -55,10 +50,8 @@ body {
 
 .btn-solid {
 	color: #ffffff;
-
 	border: 2px solid #834700;
 	background-color: #834700;
-
 }
 
 .btn-solid:hover {
@@ -68,45 +61,38 @@ body {
 
 .btn-solid:active {
 	color: rgba(255, 255, 255, 0.3);
-
 	background-color: #5c3200;
 	border-color: #5c3200;
 }
 
 .btn-transparent {
 	color: #834700;
-
 	border: 2px solid #834700;
 }
 
 .btn-transparent:hover {
 	color: #6a3900;
-
 	border-color: #6a3900;
 }
 
 .btn-transparent:active {
 	color: rgba(92, 50, 0, 0.3);
-
 	border-color: #cec1b2;
 }
 
 .btn-transparent-light {
 	color: #bcb6ab;
-
 	border: 2px solid #a5a097;
 }
 
 .btn-transparent-light:hover {
 	color: #ffffff;
-
 	background-color: #a5a097;
 	border-color: #a5a097;
 }
 
 .btn-transparent-light:active {
 	color: rgba(255, 255, 255, 0.3);
-
 	background-color: #8f8a81;
 	border-color: #8f8a81;
 }
@@ -116,9 +102,8 @@ body {
 .page-header {
 	height: 490px;
 	padding-top: 60px;
-
 	background-color: #7a5118;
-	background: url("img/wheat-back.jpg");
+	background-image: url("img/wheat-back.jpg");
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: cover;
@@ -146,17 +131,14 @@ body {
 	margin: 0;
 	margin-top: 10px;
 	padding: 0;
-
 	border-top: 1px solid rgb(255, 255, 255, 0.2);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .navigation-item {
 	position: relative;
-
 	display: inline-block;
 	margin-right: 50px;
-
 	vertical-align: middle;
 }
 
@@ -168,14 +150,11 @@ body {
 	display: inline-block;
 	padding-top: 14px;
 	padding-bottom: 13px;
-
-
 	font-weight: bold;
 	vertical-align: middle;
-
-	color: #ffffff;
 	text-transform: uppercase;
 	text-decoration: none;
+	color: #ffffff;
 }
 
 .navigation-list .navigation-link:hover {
@@ -186,11 +165,9 @@ body {
 	content: "";
 	position: absolute;
 	bottom: -1px;
-
 	display: block;
 	width: 100%;
 	height: 1px;
-
 	background-color: rgba(255, 255, 255, 1);
 }
 
@@ -200,9 +177,9 @@ body {
 }
 
 .slogan-title {
-	font-weight: bold;
 	font-size: 70px;
 	line-height: 70px;
+	font-weight: bold;
 	text-align: center;
 	color: #ffffff
 }
@@ -212,7 +189,6 @@ body {
 .new-products {
 	padding-top: 80px;
 	padding-bottom: 110px;
-
 }
 
 .new-products-title {
@@ -227,24 +203,20 @@ body {
 
 .product-card {
 	position: relative;
-
 	float: left;
 	width: 334px;
 	padding-right: 30px;
 	padding-left: 34px;
-
 	border-right: 1px solid #e5e5e5;
 	border-left: 1px solid #e5e5e5;
 }
 
 .product-card:nth-child(2n) {
 	border-left: none;
-
 }
 
 .card-title {
 	position: relative;
-
 	margin: 0;
 }
 
@@ -257,7 +229,6 @@ body {
 	position: absolute;
 	top: 85px;
 	right: 0;
-
 	width: 150px;
 	padding-right: 25px;
 }
@@ -265,7 +236,6 @@ body {
 .card-data {
 	width: 150px;
 	margin-bottom: 10px;
-
 	font-weight: bold;
 	color: #000000;
 	text-transform: uppercase;
@@ -279,7 +249,6 @@ body {
 
 .product-composition {
 	margin: 0;
-
 	font-size: 14px;
 	line-height: 24px;
 }
@@ -305,7 +274,6 @@ body {
 .card-cost {
 	display: inline-block;
 	margin-left: 25px;
-
 	font-size: 16px;
 	vertical-align: middle;
 	color: #000000;
@@ -316,25 +284,21 @@ body {
 .advantages {
 	padding-top: 80px;
 	padding-bottom: 90px;
-
 	background-color: #ffcb78;
 }
 
 .advantages-list {
 	margin: 0;
 	padding: 0;
-
 	list-style: none;
 }
 
 .advantages-list-item {
 	position: relative;
-
 	float: left;
 	width: 210px;
 	padding-right: 95px;
 	padding-left: 95px;
-
 	border-right: 1px solid #e5b66c;
 }
 
@@ -350,9 +314,9 @@ body {
 .advantages-list-item::before {
 	content: "";
 	position: absolute;
-	background: url("img/icon-sprite.png") no-repeat;
 	width: 50px;
 	height: 68px;
+	background: url("img/icon-sprite.png") no-repeat;
 }
 
 .advantage-handmade::before {
@@ -360,26 +324,23 @@ body {
 }
 
 .advantage-homeland::before {
-	background-position: -50px 0;
 	width: 46px;
 	height: 65px;
+	background-position: -50px 0;
 }
 
 .advantage-expensive::before {
-	background-position: -96px 0;
 	width: 63px;
 	height: 58px;
+	background-position: -96px 0;
 }
 
 .advantage-title {
 	margin: 100px 0 20px 0;
-
 	font-size: 20px;
-	color: #000000;
 	text-transform: uppercase;
+	color: #000000;
 }
-
-
 
 .advantage-description {
 	margin: 0;
@@ -400,31 +361,26 @@ body {
 .theory-product-list {
 	margin: 0;
 	padding: 0;
-
 	list-style: none;
 }
 
 .reference-title {
 	margin-top: 60px;
 	margin-bottom: 20px;
-
-
-
 	font-size: 20px;
 	font-weight: bold;
-	color: #000000;
 	text-transform: uppercase;
+	color: #000000;
 }
 
 .reference-sourse {
 	float: right;
 	width: 196px;
-
 	font-size: 16px;
-	font-weight: normal;
 	line-height: 30px;
-	color: #000000;
+	font-weight: normal;
 	text-transform: none;
+	color: #000000;
 }
 
 .reference-description {
@@ -445,8 +401,8 @@ body {
 }
 
 .reference-sourse-link {
-	color: #834700;
 	font-style: italic;
+	color: #834700;
 }
 
 .reference-sourse-link:hover {
@@ -462,26 +418,23 @@ body {
 .reviews {
 	padding-top: 80px;
 	padding-bottom: 90px;
-
 	background-color: #ede5d8;
 }
 
 .review {
 	position: relative;
-
 	margin: 0;
 }
 
 .review::before {
 	content: "";
 	position: absolute;
-	background: url("img/icon-sprite.png") no-repeat;
-	background-position: -159px 0;
 	top: 5px;
 	left: -105px;
-
 	width: 41px;
 	height: 31px;
+	background: url("img/icon-sprite.png") no-repeat;
+	background-position: -159px 0;
 }
 
 .review-description {
@@ -494,33 +447,32 @@ body {
 	float: right;
 	width: 330px;
 	margin-top: 10px;
-
-	font-weight: bold;
+	font-style: normal;
 	font-size: 20px;
 	line-height: 30px;
-	color: #000000;
+	font-weight: bold;
 	text-transform: uppercase;
-	font-style: normal;
+	color: #000000;
 }
 
 .btn-review-more {
 	float: left;
 	padding: 13px 20px;
 	color: rgba(0, 0, 0, 0.3);
-	border-color: rgba(0, 0, 0, 0.3);
 	background-color: transparent;
+	border-color: rgba(0, 0, 0, 0.3);
 }
 
 .btn-review-more:hover {
 	color: #ffffff;
-	border-color: rgba(0, 0, 0, 0.3);
 	background-color: rgba(0, 0, 0, 0.3);
+	border-color: rgba(0, 0, 0, 0.3);
 }
 
 .btn-review-more:active {
 	color: rgba(255, 255, 255, 0.3);
-	border-color: rgba(0, 0, 0, 0.4);
 	background-color: rgba(0, 0, 0, 0.4);
+	border-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Ассортимент */
@@ -537,12 +489,11 @@ body {
 
 .catalog-data th {
 	padding-bottom: 30px;
-
-	font-weight: normal;
 	font-size: 11px;
 	text-align: left;
-	color: #999999;
+	font-weight: normal;
 	text-transform: uppercase;
+	color: #999999;
 }
 
 .catalog-data td {
@@ -556,10 +507,9 @@ body {
 
 .catalog-data-names {
 	width: 400px;
-
 	font-weight: bold;
-	color: #000000;
 	text-transform: uppercase;
+	color: #000000;
 }
 
 .catalog-data-alc {
@@ -582,11 +532,9 @@ body {
 .new {
 	margin-left: 20px;
 	padding: 2px 5px;
-
 	font-size: 8px;
 	line-height: 30px;
 	color: #ffffff;
-
 	background-color: #000000;
 	border-radius: 2px;
 }
@@ -596,7 +544,6 @@ body {
 .ordering {
 	padding-top: 80px;
 	padding-bottom: 110px;
-
 	background-color: #ffcb78;
 }
 
@@ -615,12 +562,12 @@ body {
 }
 
 .ordering-form label {
-	font-weight: bold;
 	font-size: 16px;
 	line-height: 20px;
+	font-weight: bold;
 	vertical-align: top;
-	color: #000000;
 	text-transform: uppercase;
+	color: #000000;
 }
 
 .email-input,
@@ -631,21 +578,18 @@ body {
 	box-sizing: border-box;
 	width: 100%;
 	padding: 15px 10px 15px 20px;
-
 	font: inherit;
-	font-weight: bold;
 	font-size: 16px;
 	line-height: 20px;
-	color: #b69054;
+	font-weight: bold;
 	text-transform: uppercase;
-
+	color: #b69054;
 	background-color: rgba(0, 0, 0, 0.1);
 	border: none;
 }
 
 .comment-textarea {
 	height: 120px;
-
 	resize: none;
 }
 
@@ -663,7 +607,6 @@ body {
 .fullname-input:focus,
 .comment-textarea:focus {
 	color: #000000;
-
 	background-color: #ffffff;
 }
 
@@ -688,13 +631,12 @@ body {
 
 .checkbox-area .form-label-subscription {
 	margin-right: 15px;
-
-	font-weight: bold;
 	font-size: 16px;
 	line-height: 20px;
+	font-weight: bold;
 	vertical-align: middle;
-	color: #000000;
 	text-transform: uppercase;
+	color: #000000;
 }
 
 /* Футер */
@@ -702,7 +644,6 @@ body {
 .page-footer {
 	padding-top: 60px;
 	padding-bottom: 70px;
-
 	background-color: #000000;
 }
 
@@ -731,12 +672,10 @@ body {
 
 .social-btn {
 	position: relative;
-
 	float: left;
 	width: 70px;
 	height: 66px;
 	margin-left: -1px;
-
 	font-size: 0;
 	background-color: #1b1b1b;
 	background-repeat: no-repeat;
@@ -746,7 +685,6 @@ body {
 
 .social-btn:hover {
 	z-index: 1;
-
 	border: 1px solid #605037;
 }
 
@@ -771,7 +709,6 @@ body {
 	width: 200px;
 	margin-top: 12px;
 	margin-left: 91px;
-
 	font-size: 14px;
 	line-height: 20px;
 	color: #989898;
@@ -786,7 +723,6 @@ body {
 	float: left;
 	width: 300px;
 	margin-left: 200px;
-
 	font-size: 0;
 }
 
@@ -797,13 +733,10 @@ body {
 
 .btn-logo {
 	position: relative;
-
 	display: inline-block;
 	width: 70px;
 	height: 66px;
-
 	vertical-align: top;
-
 	background-color: #1b1b1b;
 	border: 1px solid rgba(255, 203, 120, 0.1);
 }
@@ -822,13 +755,11 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-
 	margin: auto;
 }
 
 .footer-copyright span {
 	display: inline-block;
-
 	font-size: 14px;
 	line-height: 20px;
 	vertical-align: middle;
